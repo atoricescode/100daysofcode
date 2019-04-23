@@ -1,9 +1,22 @@
-100 Days Of Code - Log
+#100 Days Of Code - Log
+---
 
-Day 0: April 22, 2019 (Ejercicio 1)
+Day 1: 22 Abril, 2019 (He empezado también el reto #javascript30)
 
-Today's Progress: Experimentando con JAVASCRIPT (querySelector,addEventListener). Bateria de sonidos.
+Progreso Diario: Utilizandop JAVASCRIPT API (querySelector,addEventListener).He realizado 3 prácticas: 1.Reproducir sonidos a partir de pulsar teclas, 2. Reloj de css con animaciones cambiando clases en javascript, 3 jugar con las variables de css para cambiar el desenfoque el padding y el color de fondo en una fotografía.
 
-Thoughts: Utilizando recursos de la api de javascript para reproducir diferentes sonidos al pulsar una tecla.
+Sensaciones: Motivado para seguir con el reto, ampliar y refrescar conocimientos en Javascript.
 
-Link to work: Not yet
+Enlace: No disponible.
+
+---
+Día 2: 23 Abril, 2019 (Practicando con Arrays)
+
+Progreso Diario: He utilizado diferentes métodos de javascript para ordenar, mapear y filtrar arrays y objetos.
+(filter,map, sort, reduce). También aprendido como hacer construcciones inline para evitar tener que hacer ifs, haciendo el código más simple y funcional.
+
+Sensaciones: Una hora muy bien aprovechada, ampliando conocimientos en meétodos con arrays
+
+Enlace: No disponible.
+---
+
