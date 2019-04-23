@@ -13,7 +13,7 @@ Enlace: No disponible.
 Día 2: 23 Abril, 2019 (Practicando con Arrays)
 
 Progreso Diario: He utilizado diferentes métodos de javascript para ordenar, mapear y filtrar arrays y objetos.
-(filter,map, sort, reduce). También aprendido como hacer construcciones inline para evitar tener que hacer ifs, haciendo el código más simple y funcional.
+(filter,map, sort, reduce). También he aprendido cómo hacer construcciones inline para evitar tener que hacer ifs, haciendo el código más simple y funcional.
 
 Sensaciones: Una hora muy bien aprovechada, ampliando conocimientos en meétodos con arrays
 
