@@ -20,7 +20,7 @@ Sensaciones: Una hora muy bien aprovechada, ampliando conocimientos en meétodos
 Enlace: No disponible.
 
 ---
-Día 2: 24 Abril, 2019 (Galeria con paneles flexibles)
+Día 3: 24 Abril, 2019 (Galeria con paneles flexibles)
 
 Progreso Diario: Programando una página muy visual con javascript en la que al clickar sobre una de las imagenes se expande y se contrae incorporando además varias palabras. 
 
