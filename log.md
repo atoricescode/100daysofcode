@@ -15,8 +15,16 @@ Día 2: 23 Abril, 2019 (Practicando con Arrays)
 Progreso Diario: He utilizado diferentes métodos de javascript para ordenar, mapear y filtrar arrays y objetos.
 (filter,map, sort, reduce). También he aprendido cómo hacer construcciones inline para evitar tener que hacer ifs, haciendo el código más simple y funcional.
 
-Sensaciones: Una hora muy bien aprovechada, ampliando conocimientos en meétodos con arrays
+Sensaciones: Una hora muy bien aprovechada, ampliando conocimientos en meétodos con arrays.
 
 Enlace: No disponible.
+
 ---
+Día 2: 24 Abril, 2019 (Galeria con paneles flexibles)
+
+Progreso Diario: Programando una página muy visual con javascript en la que al clickar sobre una de las imagenes se expande y se contrae incorporando además varias palabras. 
+
+Sensaciones: Es un gusto trabajar con algo tan visual, es un proyecto que le veo posibilidades de expansión para mostrar algún tipo de sitio promocional. He consolidado agregar y quitar clases con Javascript a determinados elementos para así crear transiciones llamativas al clickar.
+
+Enlace: No disponible.
 
