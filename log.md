@@ -27,4 +27,12 @@ Progreso Diario: Programando una página muy visual con javascript en la que al 
 Sensaciones: Es un gusto trabajar con algo tan visual, es un proyecto que le veo posibilidades de expansión para mostrar algún tipo de sitio promocional. He consolidado agregar y quitar clases con Javascript a determinados elementos para así crear transiciones llamativas al clickar.
 
 Enlace: No disponible.
+---
+Día 3: 25 Abril, 2019 (SVG Y JAVASCRIPT)
+
+Progreso Diario: Experimentando con transiciones en svg con javascript. 
+
+Sensaciones: Increibles las transiciones que se pueden llegar a hacer cambiando los valores de la imagen svg.
+
+Enlace: No disponible.
 
