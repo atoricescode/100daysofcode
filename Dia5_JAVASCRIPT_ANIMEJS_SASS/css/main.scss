@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+// variables:
+$breakpoint-xs: 360px;
+$breakpoint-sm: 767px;
+$breakpoint-md: 1023px;
+$breakpoint-lg: 1360px;
+
+
+
+@mixin media($media) {
+  @if $media == xs {
+    @media (max-width: $breakpoint-sm) { @content; }
+  }
+  @else if $media == sm {
+    @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) { @content; }
+  }
+  @else if $media == md {
+    @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) { @content; }
+  }
+  @else if $media == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  }
+}
+
+body{
+	heigt:100vh;
+	margin:0;
+	color:#D1495E;
+	font-family: 'Montserrat';
+	background-color: #363537;
+}
+
+
+.container{
+	text-align:center;
+	
+
+}
+.container2{
+
+}
+
+
+section {
+	height: 100vh;
+}
+
+section.intro{
+	background: #363537;
+	padding-top: 10em;
+	height: calc(100vh - 10em);
+	align-items: center;
+
+
+	p{
+		font-size:2em;
+		text-align: center;
+		margin-top: 3em;
+
+	}
+	
+	
+
+}
+
+
+section.anim{
+
+	background: #20A39E;
+	padding: 12em;	
+	height: calc(100vh - 24em);
+	overflow:hidden;
+	position: relative;
+
+
+
+			h1{
+						position:absolute;
+						font-size:10em;
+						text-transform: uppercase;
+						margin: 0;
+						z-index:1;
+						left:15%;
+
+						@include media(sm) {
+				 		font-size: 7em;	
+				 		width: 60%
+				 	}			
+				 		@include media(xs) {
+				 		font-size: 4em;	
+				 		width: 60%
+				 	}			
+
+			}
+
+			p{
+					position: absolute;
+					font-size: 2em;
+					width: 40%;
+					z-index: 1;
+					top:500px;		
+						@include media(sm) {
+				 		font-size: 1.5em;	
+				 		
+				 	}			
+				 		@include media(xs) {
+				 		font-size: 1.5em;	
+				 		
+				 	}			
+				
+			}
+	
+}
+
+.box1{
+	position:absolute;
+	top:0;
+	left: 20%;
+	z-index: 0;
+	width: 800px;
+	height: 800px;
+	border:30px solid #C2E812;
+	overflow: hidden;
+	transform: rotateZ(65deg);
+}
+
+.box2{
+	position:absolute;
+	top:20;
+	left: 10%;
+	z-index: 0;
+	width: 200px;
+	height: 200px;
+	border:30px solid #C2E812;
+	overflow: hidden;
+	
+}
+
+	.scroll{
+			margin-top: 20em;
+			width: 30px;			
+			color:white;
+			fill:white;
+			
+			animation: move 1s infinite alternate;
+		}
+
+		@keyframes move{
+
+			from{
+				transform: translateY(0px);
+			}
+			to{
+				transform:translateY(20px);
+			}
+
+		}
+
+.sec3{
+background-color: #363537;
+}
