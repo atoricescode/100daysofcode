@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+	margin:0;
+	height: 100vh;
+	display:grid;
+	justify-items:center;
+	align-items: center;
+	overflow: hidden;
+	background-color: rgb(20,20,20);
+	font-family: 'Montserrat';
+
+}
+
+svg{
+
+	width: 60%;
+	display: block;
+	margin:0 auto;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba svg</title>
+	<link rel="stylesheet" href="main.css">
+
+</head>
+
+
+<body>
+
+
+			<svg viewBox="0 0 400 400">
+
+			<filter id="displacementFilter">
+				
+			<feTurbulence type="turbulence" baseFrequency="0.04" numOctaves="2" result="turbulence"/>
+			
+			<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50" xChannelSelector="R" yChannelSelector="G"/>
+
+			</filter>
+
+			<path id="logo" style="filter: url(#displacementFilter); transform-origin:center;" fill="#00AE7B" d="M194.4,87.9c64.4,0,116.7,52.2,116.7,116.7s-52.2,116.7-116.7,116.7S77.7,269,77.7,204.6S129.9,87.9,194.4,87.9
+				z M118.2,204.6c0,40.8,33,73.8,73.8,73.8s73.8-33,73.8-73.8s-33-73.8-73.8-73.8S118.2,163.8,118.2,204.6z"/>
+			</svg>
+
+
+
+
+<script src="js/anime.min.js"></script>
+
+		<script>
+						
+		let tl = anime.timeline({
+			duration:4000,
+			easing: 'easeInOutQuart'
+		})
+
+
+		tl.add({
+			targets:'svg',
+			keyframes: [
+			{scale:.3,rotate:'0deg'},
+			{scale:.5,rotate:'360deg'},
+			],
+			duration: 3000
+		})
+
+		tl.add({
+			targets:["#logo",'feTurbulence','feDisplacementMap'],
+			baseFrequency:0,
+			numOctaves:0,
+			scale:1,
+			rotate:'360deg',
+			fill:'#fff',
+			
+		},"-=4000")
+
+
+		tl.add({
+			targets:'svg',
+			scale:0,
+			duration: 5000
+		})
+
+		</script>
+
+
+</body>
+</html>

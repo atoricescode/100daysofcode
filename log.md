@@ -47,3 +47,13 @@ Sensaciones: Contento de haber descubierto esta librería, y muy buenas sensacio
 
 Enlace: No disponible.
 
+---
+
+Día 6: 2 Mayo, 2019 (SVG Y JAVASCRIPT)
+
+Progreso Diario: Experimentando nuevas animaciones con SVG y la librería anime.js de javascript.
+
+Sensaciones: No deja de asombrarme esta librería y las posibilidades que ofrece
+
+Enlace: No disponible.
+
