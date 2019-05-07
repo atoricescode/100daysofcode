@@ -49,11 +49,21 @@ Enlace: No disponible.
 
 ---
 
-Día 6: 2 Mayo, 2019 (SVG Y JAVASCRIPT)
+Día 7: 6 Mayo, 2019 (SVG Y JAVASCRIPT)
 
-Progreso Diario: Experimentando nuevas animaciones con SVG y la librería anime.js de javascript.
+Progreso Diario: Animaciones con anime.js sobre un svg creado en illustrator, la idea era poder animar los ojos.
 
-Sensaciones: No deja de asombrarme esta librería y las posibilidades que ofrece
+Sensaciones:Increíble el resultado, me he divertido mucho creando esta escena, además he afianzado css para poder colocar bien los elementos y que sea responsivo.
+
+Enlace: No disponible.
+
+---
+
+Día 8: 7 Mayo, 2019 (PARTICULAS SASS)
+
+Progreso Diario: Particulas creadas con Sasss, animándolas. Muy interesante también la librería de javascript particles.js
+
+Sensaciones: He difrutado mucho realiando este código, las posibilidades de Sass son increibles, la declaración de variables y poder utilizar bucles for dan una versatilidad muy amplia.
 
 Enlace: No disponible.
 

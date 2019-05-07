@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body {
+
+    
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+.particle{
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+
+.titulo h1{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50vh;
+    color:rgb(26, 21, 21);
+    z-index:2;
+    font-size: 4em;
+    font-family: 'Righteous', cursive;
+}
+
+.titulo{
+    margin-top: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;   
+   
+}
+
+
+
+@for $i from 1 through 12{
+
+    @keyframes particle-animation-#{$i} {
+
+        100%{
+            transform: translate3d((random(90) * 1vw),(random(90) * 1vh),(random(100) * 1px));
+        }
+     
+    }
+
+    .particle:nth-child(#{$i}){
+        animation: particle-animation-#{$i} 15s infinite;
+        $size: random(300) + 200 + px; 
+        background-color:hsl(random(360),70%,50%);
+        height: $size;
+        width: $size;
+        opacity: random(100)/100;
+        animation-delay: -$i *.1s;
+        transform: translate3d((random(90) * 1vw),(random(90) * 1vh),(random(100) * 1px));
+    }
+
+
+}
